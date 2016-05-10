@@ -98,9 +98,6 @@ def weigh_sentiment(message, obj):
            }
     
     p_message = []
-    # altered 11/19/2014
-    # had total probability wrongly
-    # calculating before
     for k in sentiments:
         this_k = []
         for w in words:
